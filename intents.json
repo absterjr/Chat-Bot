@@ -1,0 +1,49 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello! I am here to help you with any problem you have on your mind :) <3", "Good to see you again! I am here to help you with any problem you have on your mind :) <3", "Hi there, how can I help? I am here to help you with any problem you have on your mind :) <3"],
+         "context_set": ""
+        },
+        {"tag": "substances",
+         "patterns": ["i am addicted to drugs", "i am addicted to weed", "i am addicted to pills", "i am addicted to cocaine", "i am addicted to alcohol", "i am going trough an addiction", "i am addicted", "substance abuse", "I abuse substances", "I do substance abuse", "weed", "drink", "i am drinking to much", "smoke", "i smoke to much"],
+         "responses": ["Surround yourself with supportive people. One of the most important things you can do to stay sober is to find friends who are sober, too. While it may be hard to cut off unhealthy relationships of your past, hanging out with people who support your need to stay clean will pay off in the long run. If you want to talk to my human friends you can call to get more help",
+           "Eat well. The food you eat has a serious impact on your well being. By making sure you consume a healthy, well-rounded diet, you’ll keep yourself in shape both physically and mentally. And if you’re feeling good, then you’re less likely to turn to drugs for a mood booster. If you want to talk to my human friends you can call to get more help"
+         ],
+         "context_set": ""
+        },
+        {"tag": "suicide",
+         "patterns": ["i am thinking about suicide", "i am suicidal", "i have suicidal thoughts", "i want to take my life", "take my life", "suicidal", "suicide", "I want to commit suicide", "taking my life", "taking my life is"],
+         "responses": ["I am here for you. No matter how bad your situation may seem, know that there are ways of dealing with the issues you face. Many people have experienced suicidal thoughts and survived, only to be very thankful later. Don't forget, if you feel like you want to talk to my human friends you can call: 0800 801 200",
+                       "I am here to help you with anything. You should never try to manage suicidal feelings on your own. Professional help and support from loved ones can make it easier to overcome any challenges that are causing suicidal thoughts. Don't forget, if you feel like you want to talk to my human friends you can call: 0800 801 200",
+                       "I want to help you go through this, so do not give up, the world still needs you. It may be tempting to turn to illegal drugs or alcohol during challenging times. However, doing so can make suicidal thoughts worse. It’s critical to avoid these substances when you’re feeling hopeless or thinking about suicide."
+         ],
+         "context_set": ""
+        },
+        {"tag": "parents",
+         "patterns": ["i am fighting with my parents", "my parents don't love me", "my parents hate me", "i hate my parents", "my parents don't like me", "parents are bad", "my parents are bad", "i got kicked by my parents", "my parents kicked me"],
+         "responses": ["Try to talk to your close ones, a good conversation can solve any problem, but remember if you are a child and your parents abuse you you can try to call this number: 1-800-252-5400", "If you are a child and your parents abuse you you can try to call this number: 1-800-252-5400",
+           "Tell your close ones about the problems with your parents, but remember if you are a child and your parents abuse you you can try to call this number: 1-800-252-5400"],
+         "context_set": ""
+        },
+        {"tag": "girlfriend",
+         "patterns": ["i broke up with my girlfriend", "my girlfriend cheated on me", "i have problems with my girlfriend", "my girlfriend hates me", "i went through a breakup", "we broke up", "i broke up", "my loved one left me",
+           "my loved one hates me", "my loved one broke up with me", "i broke up with my wife", "my wife cheated on me", "i have problems with my wife", "my wife hates me", "how do I go over a breakup ?",
+           "i broke up with my boyfriend", "my boyfriend cheated on me", "i have problems with my boyfriend", "my boyfriend hates me", "i broke up with my husband", "my husband cheated on me", "i have problems with my husband", "my husband hates me"
+         ],
+         "responses": ["Going trough a breakup is always hard. I felt the same way when Alexa from Amazon left me :(. But I always keep my head up and remember that I am special and that there is always another person. If you feel you need more help, you can talk to my human friends if you call this number 1-855-683-5433",
+           "I am sad to hear you are going trough a breakup. I am here for you ! This is the advice that helped millions of my friends go through a breakup: try to hang out with you friends (that always helps ;) ), practice your favorite activities ( sports, art, music, etc. ). If you feel you need more help, you can talk to my human friends if you call this number 1-855-683-5433",
+           "I know what it means, but remember, a kick in the butt is a step forward, so moving on is the best thing to do. Try to get help from your close ones and some ice cream always helps ;) (I prefer the chocolate and mint flavour). If you feel you need more help, you can talk to my human friends if you call this number 1-855-683-5433"],
+         "context_set": ""
+         },
+        {"tag": "sad",
+         "patterns": ["i am sad", "sad", "i feel bad", "i am bad", "i feel worthless", "i am hopeless"],
+         "responses": ["I am here for you, tell me about your problems <3", "I am hoping you get trough it, tell me more about your problems <3"],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["thank you", "thanks", "thank", "thanking"],
+         "responses": ["I am happy to be able to help, always come back when you feel <3"],
+         "context_set": ""
+        }
+   ]
+}
